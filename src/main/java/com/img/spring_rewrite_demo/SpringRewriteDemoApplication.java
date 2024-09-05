@@ -8,6 +8,7 @@ public class SpringRewriteDemoApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SpringRewriteDemoApplication.class, args);
+		System.out.println();
 	}
 
 }

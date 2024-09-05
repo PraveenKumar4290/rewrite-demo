@@ -1,0 +1,11 @@
+type: spec.openrewrite.org/v1beta/recipe
+name: com.img.spring_rewrite_demo.RecipeForRestTemplateToWebClient
+displayName: 'Hello world ! Here Custom Recipe'
+description: 'adding a Hello method to a class.'
+tags:
+  - spring
+  - boot
+recipeList:
+  - org.openrewrite.java.ChangeType:
+      methodPattern: "com.imag.Hello hello"
+      newMethodName: "hello"
